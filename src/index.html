@@ -3,8 +3,14 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta
+      name="viewport"
+      content="width=device-width,
+        user-scalable=no,
+        initial-scale=1.0,
+        maximum-scale=1.0,
+        minimum-scale=1.0"
+    >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
@@ -19,21 +25,21 @@
       autocomplete="off"
       onsubmit="onSubmit()"
     >
-      <fieldset class="forms">
+      <fieldset class="forms__fieldset">
         <legend>Personal information</legend>
-        <div class="formField">
-          <label for="surrname">
+        <div class="form__field">
+          <label for="surname">
             Surname:
           </label>
           <input
             type="text"
-            name="surrname"
-            id="surrname"
+            name="surname"
+            id="surname"
             required
           >
         </div>
 
-        <div class="formField">
+        <div class="form__field">
           <label for="name">
             Name:
           </label>
@@ -45,12 +51,12 @@
           >
         </div>
 
-        <div class="formField">
+        <div class="form__field">
           <label for="age">
             How old are You?
           </label>
           <input
-          type="number"
+            type="number"
             name="age"
             id="age"
             value="12"
@@ -60,7 +66,7 @@
           >
         </div>
 
-        <div class="formField">
+        <div class="form__field">
           <label for="birth">
             Full date of birth:
           </label>
@@ -72,7 +78,7 @@
           >
         </div>
 
-        <div class="formField">
+        <div class="form__field">
           <label for="termsOfAgreement">
             I accept the term of the agreement
           </label>
@@ -85,9 +91,9 @@
         </div>
       </fieldset>
 
-      <fieldset class="forms">
+      <fieldset class="forms__fieldset">
         <legend>Registration</legend>
-        <div class="formField">
+        <div class="form__field">
           <label for="email">
             E-mail:
           </label>
@@ -100,7 +106,7 @@
           >
         </div>
 
-        <div class="formField">
+        <div class="form__field">
           <label for="password">
             Password:
           </label>
@@ -115,31 +121,31 @@
         </div>
       </fieldset>
 
-      <fieldset class="forms">
+      <fieldset class="forms__fieldset">
         <legend>An interesting fact about you!</legend>
-        <div class="formField">
+        <div class="form__field">
           Do you love cats?
           <input
             type="radio"
-            name="cats-lover"
-            id="cats-lover1"
+            name="catsLover"
+            id="catsLoverYes"
             value="yes"
           >
-          <label for="cats-lover1">
+          <label for="catsLoverYes">
             Yes
           </label>
           <input
             type="radio"
-            name="cats-lover"
-            id="cats-lover2"
+            name="catsLover"
+            id="catsLoverNo"
             value="yes"
           >
-          <label for="cats-lover2">
+          <label for="catsLoverNo">
             No
           </label>
         </div>
 
-        <div class="formField">
+        <div class="form__field">
           <label for="color">
             What is your favorite color?
           </label>
@@ -150,7 +156,7 @@
           >
         </div>
 
-        <div class="formField">
+        <div class="form__field">
           <label for="goToBed">
             What time do you go to bed?
           </label>
@@ -161,7 +167,7 @@
           >
         </div>
 
-        <div class="formField">
+        <div class="form__field">
           <label for="favoriteСar">
             What are your favorite brand of cars?
           </label>
@@ -176,7 +182,7 @@
           </select>
         </div>
 
-        <div class="formField">
+        <div class="form__field">
           <label for="rating">
             How do you rate our work?
           </label>
@@ -188,22 +194,22 @@
         </div>
       </fieldset>
 
-      <fieldset class="forms">
+      <fieldset class="forms__fieldset">
         <legend> Additional info: </legend>
-        <div class="formField">
+        <div class="form__field">
           <label for="comments">
             Comments:
           </label>
           <textarea name="comments" id="comments"></textarea>
         </div>
 
-        <div class="formField">
-          <label for="recom">
+        <div class="form__field">
+          <label for="recommend">
             Would you recommend us?
           </label>
           <select
-            name="recomr"
-            id="recom"
+            name="recommend"
+            id="recommend"
           >
             <option value="yes">yes</option>
             <option value="no">no</option>
